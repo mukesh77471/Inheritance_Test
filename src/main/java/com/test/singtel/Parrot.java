@@ -23,5 +23,8 @@ public class Parrot extends Bird {
 			System.out.println("No parrot available");
 		}
 	}
-
+	@Override
+	public String toString(){ 
+		  return "says";  
+		 } 
 }

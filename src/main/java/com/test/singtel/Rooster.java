@@ -5,5 +5,8 @@ public class Rooster extends Chicken {
 	void says() {
 		System.out.println("Cock-a-doodle-doo");
 	}
-
+	@Override
+	public String toString(){ 
+		  return "says";  
+		 } 
 }

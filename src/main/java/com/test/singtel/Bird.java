@@ -17,4 +17,8 @@ public class Bird extends Animal implements CommonFeatures,CommonFeaturesForBird
 		System.out.println(" I Can Swim");
 	}
 	
+	@Override
+	public String toString(){ 
+		  return "fly"+"sing"+"says"+"swim";  
+		 } 
 }

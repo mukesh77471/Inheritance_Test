@@ -12,5 +12,8 @@ public class Caterpillar extends Animal implements CommonFeaturesForBirdAndButte
 	void walk() {
 		System.out.println("Can Crawl");
 	}
-
+	@Override
+	public String toString(){ 
+		  return "walk";  
+		 } 
 }

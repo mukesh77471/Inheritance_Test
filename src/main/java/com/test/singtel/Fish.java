@@ -26,5 +26,8 @@ public class Fish extends Animal implements CommonFeatures{
 			System.out.println("Clownfish are small and colourful(orange). Clownfish make jokes");
 		}
 	}
-
+	@Override
+	public String toString(){ 
+		  return "swim";  
+		 } 
 }

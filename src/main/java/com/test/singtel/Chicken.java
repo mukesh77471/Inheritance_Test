@@ -10,4 +10,8 @@ public class Chicken extends Bird{
 	public void fly() {
 		System.out.println("Cannot Fly wings clipped");
 	}
+	@Override
+	public String toString(){ 
+		  return "says";  
+		 } 
 }

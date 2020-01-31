@@ -1,5 +1,7 @@
 package com.test.singtel;
 
+import java.util.ArrayList;
+
 import com.test.singtelInterface.CommonFeaturesForBirdAndButterFly;
 
 public class Solution {
@@ -15,9 +17,9 @@ public class Solution {
 		chicken.fly();
 		Chicken rooster = new Rooster();
 		rooster.says();
-		Bird parrot= new Parrot();
+		Bird parrot = new Parrot();
 		parrot.says();
-		
+
 		Fish fish = new Fish();
 		fish.sing();
 		fish.walk();
@@ -31,7 +33,36 @@ public class Solution {
 		Caterpillar caterpillar = new Caterpillar();
 		caterpillar.fly();
 		caterpillar.walk();
+
+		Animal[] animals = new Animal[] { new Bird(), new Duck(), new Chicken(), new Rooster(), new Parrot(),
+				new Fish(), new Dolphin(), new Butterfly(), new Caterpillar() };
 		
+		int count =0;
+		ArrayList<Animal> fly = new ArrayList<Animal>();
+		ArrayList<Animal> walk = new ArrayList<Animal>();
+		ArrayList<Animal> sing = new ArrayList<Animal>();
+		ArrayList<Animal> swim = new ArrayList<Animal>();
+		for(Animal animal : animals)
+		{
+			
+			if(animal.toString().contains("fly")) {
+				fly.add(animal);
+			}
+			if(animal.toString().contains("walk")) {
+				walk.add(animal);
+			}
+			if(animal.toString().contains("swim")) {
+				swim.add(animal);
+			}
+			if(animal.toString().contains("sing")) {
+				sing.add(animal);
+			}
+		}
+		
+		System.out.println("Fly :" +fly.size());
+		System.out.println("Walk :" +walk.size());
+		System.out.println("swim :" +swim.size());
+		System.out.println("sing :" +sing.size());
 	}
 
 }

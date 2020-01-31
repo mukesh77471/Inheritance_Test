@@ -10,5 +10,8 @@ public class Duck extends Bird {
 	public void swim() {
 		System.out.println("Can Swim");
 	}
-
+	@Override
+	public String toString(){ 
+		  return "says"+"swim";  
+		 } 
 }

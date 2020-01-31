@@ -2,7 +2,7 @@ package com.test.singtel;
 
 import com.test.singtelInterface.CommonFeatures;
 
-public class Dolphin implements CommonFeatures {
+public class Dolphin extends Animal implements CommonFeatures {
 
 	public void swim() {
 		System.out.println("Can Swim");
@@ -13,5 +13,8 @@ public class Dolphin implements CommonFeatures {
 		// TODO Auto-generated method stub
 		
 	}
-
+	@Override
+	public String toString(){ 
+		  return "swim";  
+		 } 
 }
