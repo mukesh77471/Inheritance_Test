@@ -15,6 +15,15 @@ public class Solution {
 		rooster.says();
 		Bird parrot= new Parrot();
 		parrot.says();
+		
+		Fish fish = new Fish();
+		fish.sing();
+		fish.walk();
+		fish.swim();
+		fish.type("Shark");
+		fish.type("Clownfish");
+		Dolphin dolphin = new Dolphin();
+		dolphin.swim();
 	}
 
 }

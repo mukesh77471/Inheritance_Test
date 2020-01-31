@@ -15,3 +15,8 @@ We can use compostion in place of inheritance as HAS-A relationship. Though we c
 For Answer 1 4.d
 
 For another parrot to maintain will add case to switch statement.
+
+
+For Answer B 3.b
+
+By using Strategy pattern, means to use interface and abstract class to avoid duplication of unneeded overhead.

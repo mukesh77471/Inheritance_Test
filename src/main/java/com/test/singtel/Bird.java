@@ -1,6 +1,8 @@
 package com.test.singtel;
 
-public class Bird extends Animal{
+import com.test.singtelInterface.CommonFeatures;
+
+public class Bird extends Animal implements CommonFeatures{
 	void fly() {
 		System.out.println(" I am Flying");
 	}
@@ -10,7 +12,7 @@ public class Bird extends Animal{
 	void says() {
 		System.out.println("I can say");
 	}
-	void swim() {
+	public void swim() {
 		System.out.println(" I Can Swim");
 	}
 	
