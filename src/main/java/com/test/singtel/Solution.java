@@ -11,6 +11,10 @@ public class Solution {
 		Bird chicken = new Chicken();
 		chicken.says();
 		chicken.fly();
+		Chicken rooster = new Rooster();
+		rooster.says();
+		Bird parrot= new Parrot();
+		parrot.says();
 	}
 
 }
