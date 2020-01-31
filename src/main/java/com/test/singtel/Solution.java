@@ -6,6 +6,11 @@ public class Solution {
 		bird.walk();
 		bird.fly();
 		bird.sing();
+		Bird duck = new Duck();
+		duck.says();
+		Bird chicken = new Chicken();
+		chicken.says();
+		chicken.fly();
 	}
 
 }
