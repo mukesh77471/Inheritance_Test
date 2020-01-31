@@ -1,9 +1,10 @@
 package com.test.singtel;
 
 import com.test.singtelInterface.CommonFeatures;
+import com.test.singtelInterface.CommonFeaturesForBirdAndButterFly;
 
-public class Bird extends Animal implements CommonFeatures{
-	void fly() {
+public class Bird extends Animal implements CommonFeatures,CommonFeaturesForBirdAndButterFly{
+	public void fly() {
 		System.out.println(" I am Flying");
 	}
 	public void sing() {

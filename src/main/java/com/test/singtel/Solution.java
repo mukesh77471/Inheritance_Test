@@ -1,5 +1,7 @@
 package com.test.singtel;
 
+import com.test.singtelInterface.CommonFeaturesForBirdAndButterFly;
+
 public class Solution {
 	public static void main(String[] args) {
 		Bird bird = new Bird();
@@ -24,6 +26,12 @@ public class Solution {
 		fish.type("Clownfish");
 		Dolphin dolphin = new Dolphin();
 		dolphin.swim();
+		Butterfly butterfly = new Butterfly();
+		butterfly.fly();
+		Caterpillar caterpillar = new Caterpillar();
+		caterpillar.fly();
+		caterpillar.walk();
+		
 	}
 
 }
